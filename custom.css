@@ -1,0 +1,119 @@
+body {
+  scroll-behavior: smooth;
+}
+
+#hero {
+  background: url('./assets/hero.jpg') center/cover no-repeat;
+}
+
+.nav-link.active {
+  color: #ffc107 !important;
+  font-weight: bold;
+}
+
+.dark-mode #about,
+.dark-mode #contact {
+  background-color: #222 !important;
+  color: #fff !important;
+}
+
+.dark-mode #about h2,
+.dark-mode #about p,
+.dark-mode #contact h2,
+.dark-mode #contact p,
+.dark-mode #contact label,
+.dark-mode #contact input,
+.dark-mode #contact textarea {
+  color: #fff !important;
+  background-color: #222 !important;
+  border-color: #444 !important;
+}
+
+.dark-mode #contact .form-control::placeholder {
+  color: #bbb !important;
+}
+
+.dark-mode #testimonials,
+.dark-mode #gallery,
+.dark-mode #menu {
+  background-color: #222 !important;
+  color: #fff !important;
+}
+
+.dark-mode #testimonials h2,
+.dark-mode #testimonials blockquote,
+.dark-mode #testimonials p,
+.dark-mode #gallery h2,
+.dark-mode #gallery p,
+.dark-mode #menu h2,
+.dark-mode #menu p {
+  color: #fff !important;
+}
+
+.dark-mode #menu .card,
+.dark-mode #menu .card-body {
+  background-color: #222 !important;
+  color: #fff !important;
+  border-color: #444 !important;
+}
+
+
+.dark-mode #testimonials,
+.dark-mode #contact {
+  background-color: #232323 !important;
+  color: #fff !important;
+  border-radius: 1.2rem;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.5);
+  padding: 2.5rem 1.5rem;
+  margin: 2.5rem auto;
+  max-width: 800px;
+}
+
+
+.dark-mode #testimonials {
+  margin-bottom: 2.5rem;
+}
+
+.dark-mode #contact {
+  margin-top: 2.5rem;
+}
+
+.dark-mode #contact .card,
+.dark-mode #contact .bg-white,
+.dark-mode #contact .form-control,
+.dark-mode #contact input,
+.dark-mode #contact textarea {
+  background-color: #181818 !important;
+  color: #fff !important;
+  border-color: #444 !important;
+}
+
+.dark-mode #contact .form-control::placeholder {
+  color: #bbb !important;
+}
+
+.dark-mode #contact h5,
+.dark-mode #contact label,
+.dark-mode #contact span,
+.dark-mode #contact svg {
+  color: #fff !important;
+}
+
+/* Optional: Make icons more visible */
+.dark-mode #contact .text-warning {
+  color: #ffc107 !important;
+}
+
+.dark-mode #testimonials .card {
+  background-color: #181818 !important;
+  color: #fff !important;
+  border: none;
+}
+
+.dark-mode #testimonials .card .text-warning {
+  color: #ffc107 !important;
+}
+
+.dark-mode #testimonials .blockquote-footer {
+  color: #ccc !important;
+}
